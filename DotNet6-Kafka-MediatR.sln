@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32819.101
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Base", "Kafka.Base\Kafka.Base.csproj", "{BAA2B7AF-EC21-4696-8435-F7D112D85B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Base", "Kafka.Base\Kafka.Base.csproj", "{BAA2B7AF-EC21-4696-8435-F7D112D85B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Register.Producer", "Kafka.Producer\Customer.Register.Producer.csproj", "{207B9AC2-5E20-48F5-AA44-077C56D8E239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Demographic.Handler.Consumer", "Customer.Demographic.Consumer\Customer.Demographic.Handler.Consumer.csproj", "{7702B15D-9CA9-4C84-BB62-A4EF2C59EB28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Demographic.Handler.Consumer", "Customer.Demographic.Consumer\Customer.Demographic.Handler.Consumer.csproj", "{7702B15D-9CA9-4C84-BB62-A4EF2C59EB28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Email.Handler.Consumer", "Customer.EmailSender.Consumer\Customer.Email.Handler.Consumer.csproj", "{CD167183-E038-4D44-A78B-4B007F48333A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Email.Handler.Consumer", "Customer.EmailSender.Consumer\Customer.Email.Handler.Consumer.csproj", "{CD167183-E038-4D44-A78B-4B007F48333A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{D05A9B86-081E-48D7-BD23-4CC14B5DB45E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D05A9B86-081E-48D7-BD23-4CC14B5DB45E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Register.Producer", "Customer.Register.Producer\Customer.Register.Producer.csproj", "{D2F00D73-4568-4E9E-9AEC-0808F62CFBA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{BAA2B7AF-EC21-4696-8435-F7D112D85B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA2B7AF-EC21-4696-8435-F7D112D85B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA2B7AF-EC21-4696-8435-F7D112D85B5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{207B9AC2-5E20-48F5-AA44-077C56D8E239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{207B9AC2-5E20-48F5-AA44-077C56D8E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{207B9AC2-5E20-48F5-AA44-077C56D8E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{207B9AC2-5E20-48F5-AA44-077C56D8E239}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7702B15D-9CA9-4C84-BB62-A4EF2C59EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7702B15D-9CA9-4C84-BB62-A4EF2C59EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7702B15D-9CA9-4C84-BB62-A4EF2C59EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{D05A9B86-081E-48D7-BD23-4CC14B5DB45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D05A9B86-081E-48D7-BD23-4CC14B5DB45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D05A9B86-081E-48D7-BD23-4CC14B5DB45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F00D73-4568-4E9E-9AEC-0808F62CFBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F00D73-4568-4E9E-9AEC-0808F62CFBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F00D73-4568-4E9E-9AEC-0808F62CFBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F00D73-4568-4E9E-9AEC-0808F62CFBA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

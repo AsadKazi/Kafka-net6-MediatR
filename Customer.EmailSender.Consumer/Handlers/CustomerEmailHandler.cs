@@ -13,7 +13,7 @@ namespace Customer.Demographic.Consumer.Handlers
         public Task Handle(MessageNotification<Models.Customer> notification, CancellationToken cancellationToken)
         {
             var message = notification.Message;
-            Log.Information("Submitting customer {Customer}", JsonConvert.SerializeObject(message));
+            Log.Information("Submitted customer {Customer}", JsonConvert.SerializeObject(message));
             return Task.CompletedTask;
         }
     }
