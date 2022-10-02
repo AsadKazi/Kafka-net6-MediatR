@@ -29,12 +29,12 @@ builder.Services.AddOptions<KafkaConfigurations>()
                 .Bind(builder.Configuration.GetSection("Kafka"));
 builder.Services.AddKafkaConsumer(typeof(Program));
 ```
-Let's play the demo
+Let's play the demo.
 Go to the solution directory and run the following command to run the kafka and zookeeper
 ![kafka start](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-start.PNG?raw=true)
 Run the `Customer.Register.Producer` project and register a consumer.
 ![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/generate-topic.PNG?raw=true)
-It will create the topic in kafka. Let's connect the kafka using `Kafka Tool` and see the topic
+It will create the topic in kafka. Let's connect the kafka using `Kafka Tool` and see the topic.
 Connect the kafka using `Kafka Tool`
 ![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-tool-connection1.PNG?raw=true)
 ![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-tool-connection2.PNG?raw=true)
