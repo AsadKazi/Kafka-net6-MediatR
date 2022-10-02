@@ -39,3 +39,15 @@ Connect the kafka using `Kafka Tool`
 ![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-tool-connection1.PNG?raw=true)
 ![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-tool-connection2.PNG?raw=true)
 ![topic name](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/kafka-tool-topic.PNG?raw=true)
+
+Now make the multiple startup project
+![multiple startup](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/multiproject-start.PNG?raw=true)
+
+Now register new customer and see that both `Customer.Demographic.Consumer` and `Customer.EmailSender.Consumer` consumer handle the request.
+![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/customer-register.PNG?raw=true)
+
+Customer demographic consumer
+![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/customer-demographic-consumer.png?raw=true)
+
+Customer email sender consumer
+![customer register](https://github.com/AsadKazi/Kafka-net6-MediatR/blob/master/docs/customer-email-consumer.png?raw=true)
